@@ -21,6 +21,8 @@ public class Start {
         RobotNew robotNew = (RobotNew)ctx.getBean(RobotNew.class);
         robotNew.getHead().say();
         robotNew.getLeg().go();
+        robotNew.test();
+
 
     }
 }
